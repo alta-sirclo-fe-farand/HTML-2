@@ -1,0 +1,70 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.centered-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-image: url(assets/bg-img.png);
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+.circular-photo {
+    border-radius: 50%;
+    margin: 150px;
+}
+
+.blue-fonts {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 52, 94);
+}
+
+.orange-fonts {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 117, 34);
+}
+
+.large-fonts {
+    font-size: 70px;
+}
+
+.medium-fonts {
+    font-size: 30px;
+}
+
+.small-fonts {
+    font-size: 20px;
+}
+
+#button {
+    background-color: rgb(244, 117, 34);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 24px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
