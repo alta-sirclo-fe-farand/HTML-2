@@ -8,19 +8,25 @@
 .single-flex-container {
     display: flex;
     flex-direction: row;
-    padding-left: 225px;
+    padding-left: 215px;
 }
 
 .blue-background {
     background-color: rgb(25, 52, 94);
+    padding: 30px;
 }
 
 .teal-background {
-    background-color: skyblue;
+    background-color: rgb(244, 247, 252);
 }
 
 .circular-photo {
     border-radius: 10px;
+}
+
+.absolute-position {
+    position: absolute;
+    clip: rect(0px 0px 0px 100px);
 }
 
 .blue-fonts {
@@ -50,8 +56,32 @@
     font-size: 20px;
 }
 
+.menu-fonts {
+    font-size: 15px;
+}
+
+.remove-indent {
+    padding-left: 15px;
+}
+
+.overlap {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.overlap-image:first-of-type {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2
+}
+
+.overlap-image:last-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+}
+
 .border {
     border: 1px solid rgb(25, 52, 94);
+    padding: 5px 20px;
 }
 
 .single-border {

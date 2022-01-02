@@ -15,6 +15,8 @@
 .background {
     background-image: url(assets/bg-img.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: auto;
     height: auto;
 }
@@ -36,14 +38,25 @@
 
 .large-fonts {
     font-size: 70px;
+    margin: 0px;
+    padding: 5px;
 }
 
 .medium-fonts {
     font-size: 30px;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 15px;
 }
 
 .small-fonts {
     font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.menu-fonts {
+    font-size: 15px;
 }
 
 #button {
